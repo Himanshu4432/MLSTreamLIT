@@ -1,9 +1,6 @@
 import xgboost as xgb
 import streamlit as st
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import GridSearchCV
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 #Loading up the Regression model we created
 model = xgb.XGBRegressor()
